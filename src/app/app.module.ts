@@ -37,6 +37,7 @@ import { AboutComponent } from './about/about.component';
       { path: 'contact', component: ContactComponent },
       { path: 'podcast', component: PodcastComponent },
       { path: 'advert', component: AdvertComponent },
+      { path: 'about', component: AboutComponent },
     ])
   ],
   declarations: [
