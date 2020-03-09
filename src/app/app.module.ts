@@ -18,6 +18,7 @@ import { NewsComponent } from './news/news.component';
 import { ContactComponent } from './contact/contact.component';
 import { AdvertComponent } from './advert/advert.component';
 import { PodcastComponent } from './podcast/podcast.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   imports: [
@@ -50,7 +51,8 @@ import { PodcastComponent } from './podcast/podcast.component';
     NewsComponent,
     ContactComponent,
     AdvertComponent,
-    PodcastComponent
+    PodcastComponent,
+    AboutComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
