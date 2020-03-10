@@ -19,6 +19,8 @@ import { ContactComponent } from './contact/contact.component';
 import { AdvertComponent } from './advert/advert.component';
 import { PodcastComponent } from './podcast/podcast.component';
 import { AboutComponent } from './about/about.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -53,7 +55,9 @@ import { AboutComponent } from './about/about.component';
     ContactComponent,
     AdvertComponent,
     PodcastComponent,
-    AboutComponent
+    AboutComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   bootstrap: [ AppComponent ],
   providers: [CartService]
