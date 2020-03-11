@@ -1,12 +1,12 @@
 
 <div *ngFor="let product of products; index as productId">
-<table style="width:100%" align="center">
+<table style="width:100%" class="center">
 
-<tr align="center">
+<tr>
 <th><h3 align="center">Out now!!!</h3></th>
 </tr>
 
-<tr align="center">
+<tr>
 <td><a [title]="product.name + ' details'" [routerLink]="['/products', productId]">
       <img src="https://raw.githubusercontent.com/phiwesriva/angular-mn8emkeswatinipro-e6w3hm/master/src/assets/Issue7.png"></a></td>
 </tr>
@@ -36,7 +36,7 @@
     </ng-template>
   </ngb-carousel>
 
-<tr align="center">
+<tr>
 <td><p *ngIf="product.description">{{ product.description }}</p></td>
 </tr>
 

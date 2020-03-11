@@ -10,6 +10,7 @@
 
 body {
   margin: 0;
+  text-align:center;
 }
 
 /*#table1 {
@@ -20,6 +21,11 @@ body {
  th, td {*/
  /* padding: 15px;*/
 /*}*/
+
+table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
 
 img {
   max-width: 100%;
